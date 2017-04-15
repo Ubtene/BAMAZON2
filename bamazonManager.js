@@ -26,7 +26,7 @@ var promptUser = function(){
         message: "Choose a menu option:",
         choices: ["View Products for Sale","View Low Inventory","Add to Inventory","Add New Product"]
     }]).then(function(answer) {
-        if(answer.option == "View Products for Sale"){
+        if(answer.option === "View Products for Sale"){
         	displayItems();
         	
         	inquirer.prompt([{
@@ -37,7 +37,7 @@ var promptUser = function(){
 
         	}]).then(function (answer) {
         
-        		if(answer.option2 == "Return to main menu") {
+        		if(answer.option2 === "Return to main menu") {
 
         				promptUser();
         		} else {
@@ -47,7 +47,7 @@ var promptUser = function(){
         		}
         	});
         }
-        else if(answer.option == "View Low Inventory"){
+        else if(answer.option === "View Low Inventory"){
         	connection.query('SELECT * FROM Products WHERE StockQuantity<5', function(err, res) {
 		        for (var i = 0; i < res.length; i++) {
 		            console.log("");
@@ -66,7 +66,7 @@ var promptUser = function(){
 
         	}]).then(function (answer) {
         
-        		if(answer.option3 == "Return to main menu") {
+        		if(answer.option3 === "Return to main menu") {
 
         				promptUser();
         		} else {
