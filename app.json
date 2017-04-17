@@ -1,0 +1,7 @@
+{
+  "name": "Bamazon2",
+  "description": "A barebones Node.js app using Express and mySQL",
+  "repository": "https://github.com/Ubtene/BAMAZON2",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}
