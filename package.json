@@ -5,7 +5,6 @@
   "main": "bamazonCustomer.js",
   "scripts": {
     "start": "node bamazonCustomer",
-     "postinstall": "bower install && grunt build"
   },
   "author": "",
   "license": "ISC",
