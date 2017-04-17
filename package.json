@@ -1,26 +1,25 @@
 {
-  "name": "bamazon",
-  "version": "1.0.0",
-  "description": "",
-  "main": "bamazonCustomer.js",
-  "scripts": {
-    "start": "node bamazonCustomer",
-  },
-  
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
+  "name": "bamazon"
+  ,"version": "1.0.0"
+  ,"description": ""
+  ,"main": "bamazonCustomer.js"
+  ,"scripts": {
+    "start": "node bamazonCustomer"
+  }
+
+  ,"author": ""
+  ,"license": "ISC"
+  ,"dependencies": {
     "inquirer": "^3.0.6",
     "mysql": "^2.13.0"
-  },
+  }
   
-  "engines": {
+  ,"engines": {
   	"node": "6.10.2"	
-  },
-
-   "repository": {
-    "type": "git",
-    "url": "https://github.com/Ubtene/BAMAZON2"
+  }
+  ,"repository": {
+    "type": "git"
+    ,"url": "https://github.com/Ubtene/BAMAZON2"
   }
 
 }
