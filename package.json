@@ -15,7 +15,11 @@
   "engines": {
 
   	"node": "v6.10.2"
+  },
 
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/Ubtene/BAMAZON2"
   },
 
 }
