@@ -4,7 +4,8 @@
   "description": "",
   "main": "bamazonCustomer.js",
   "scripts": {
-    "start": "node bamazonCustomer"
+    "start": "node bamazonCustomer",
+     "postinstall": "bower install && grunt build"
   },
   "author": "",
   "license": "ISC",
@@ -12,14 +13,14 @@
     "inquirer": "^3.0.6",
     "mysql": "^2.13.0"
   },
+  
   "engines": {
-
-  	"node": "v6.10.2"
+  	"node": "6.10.2"	
   },
 
    "repository": {
     "type": "git",
     "url": "https://github.com/Ubtene/BAMAZON2"
-  },
+  }
 
-}
+},
